@@ -13,7 +13,7 @@ public class MyUserGroupCallback implements UserGroupCallback {
 		add("Administrator".intern());
 		add("Daniel".intern());
 		add("Mondo".intern());
-		add("Jean".intern()); 
+		add("Gaspar".intern()); 
 	}};
 
 	@Override

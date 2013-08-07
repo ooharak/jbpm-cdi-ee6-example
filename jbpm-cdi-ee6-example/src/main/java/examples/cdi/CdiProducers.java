@@ -64,7 +64,7 @@ public class CdiProducers {
 	
 	@Produces
 	@Singleton
-	public RuntimeEngine produreRuntimeEngine() {
+	public RuntimeEngine produceRuntimeEngine() {
 		RuntimeEnvironment env = RuntimeEnvironmentBuilder.getDefault()
 				.persistence(true)
 				.entityManagerFactory(emf)
